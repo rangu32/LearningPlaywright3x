@@ -2,6 +2,9 @@
 /*
 let — declares a variable that can be reassigned later. 
 Use this when the value will change.
+let browser = "Chrome";
+browser = "Edge";          // Reassignment ✅
+let browser = "Firefox";   // Redeclaration ❌
 
 */
 
